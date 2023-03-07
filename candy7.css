@@ -25,5 +25,5 @@ hr{
 .explore{
     width: 80%;
     height:100vh;
-    background-image: linear-gradient(to top, white, lightgrey);
+    background-image: linear-gradient(to top, white, grey);
 }
