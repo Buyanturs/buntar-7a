@@ -44,6 +44,11 @@
     background: linear-gradient(to right,#000000, #ff0000);
     width: 80%;
     height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 .g{
     width: 80%;
@@ -59,9 +64,26 @@
     width: 80%;
     height: 15%;
     background: linear-gradient(to right,#5affff, #e5ff00);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 .j{
     width: 80%;
     height: 15%;
     background: linear-gradient(to right,#5affff, #e5ff00);
+}
+.ball1{
+    border-radius: 5cm;
+    width: 2cm;
+    height: 2cm;
+    background-color: yellow;
+}
+.ball2{
+    border-radius: 5cm;
+    width: 2cm;
+    height: 2cm;
+    background-color: red;
 }
