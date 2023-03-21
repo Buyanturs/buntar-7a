@@ -10,7 +10,7 @@
 .one{
     width: 25%;
     height:100%;
-    background-color: rgba(255, 0, 0, 0.374);
+    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
 .two{
     width: 25%;
     height:100%;
-    background-color: rgb(229, 255, 0);
+    background-color: yellow;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
@@ -27,19 +27,19 @@
 .three{
     width: 25%;
     height:100%;
-    background-color: rgb(0, 30, 255);
+    background-color: blue;
     display: flex;
 }
 .four{
     width: 25%;
     height:100%;
-    background-color: rgb(51, 255, 0);
+    background-color: green;
     display: flex;
 }
 .card{
     width: 90%;
     height:90%;
-    background-image: linear-gradient(to left, rgb(255, 0, 0), grey);
+    background-image: linear-gradient(to right, rgb(255, 0, 0), grey);
     margin: 50px;
     display: flex;
     justify-content: flex-end;
@@ -48,27 +48,27 @@
 .circle{
     width: 20%;
     height:8%;
-    background-color: rgb(238, 255, 0);
+    background-color: yellow;
     border-radius: 50px;
     margin: 20px;
 }
 .neg{
     width:90% ;
     height: 20%;
-    background-image: linear-gradient(to left, yellow, cyan);
+    background-image: linear-gradient(to right, yellow, cyan);
     margin: 35px;
 }
 .hoyor{
     width:90% ;
     height: 20%;
-    background-image: linear-gradient(to left, yellow, cyan);
+    background-image: linear-gradient(to right, yellow, cyan);
     margin: 35px;
 }
 
 .gurav{
     width:90% ;
     height: 20%;
-    background-image: linear-gradient(to left, yellow, cyan);
+    background-image: linear-gradient(to right, yellow, cyan);
     margin: 35px;
     display: flex;
     justify-content: flex-end;
@@ -78,13 +78,13 @@
 .duruv{
     width:90% ;
     height: 20%;
-    background-image: linear-gradient(to left, yellow, cyan);
+    background-image: linear-gradient(to right, yellow, cyan);
     margin: 35px;
 }
 .bumbug{
     width: 20%;
     height:45%;
-    background-color: rgb(255, 0, 0);
+    background-color: red;
     border-radius: 50px;
     justify-content: flex;
     align-items: center;
@@ -100,11 +100,11 @@
 .top{
     width:100%;
     height: 40%;
-    background-color: rgb(0, 13, 255);
+    background-color: blue;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to left, blue, grey);
 }
 .middle{
     width: 100%;
@@ -127,22 +127,22 @@
 .first{
     width:25%;
     height:30%;
-    background-color:rgb(0, 17, 255);
+    background-color:blue;
     justify-content: center;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to right, blue, grey);
 }
 .second{
     width:25%;
     height:30%;
-    background-color:rgb(0, 13, 255);
+    background-color: blue;
     margin:50px;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to right, blue, grey);
 }
 .no3{
     width:25%;
     height:30%;
-    background-color:rgb(0, 26, 255);
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-color:blue;
+    background-image: linear-gradient(to right, blue , grey);
 }
 .neeg{
     width: 100%;
@@ -157,30 +157,30 @@
 .negg{
     width: 50%;
     height: 90%;
-    background-color: rgb(255, 0, 0);
+    background-color: blue;
     margin: 5px;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to left, blue, grey);
 }
 .hoyrr{
     width: 50%;
     height: 90%;
-    background-color: rgb(255, 0, 0);
+    background-color: blue;
     margin: 5px;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to left, blue, grey);
 }
 .nega{
     width: 50%;
     height: 90%;
-    background-color: rgb(255, 0, 0);
+    background-color: blue;
     margin: 5px;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to left, blue, grey);
 }
 .hoyro{
     width: 50%;
     height: 90%;
-    background-color: rgb(255, 0, 0);
+    background-color: blue;
     margin: 5px;
-    background-image: linear-gradient(to left, rgb(0, 13, 255), grey);
+    background-image: linear-gradient(to left, blue, grey);
 }
 .cartt{
     width: 90%;
@@ -212,55 +212,55 @@
 .kaart{
     width: 90%;
     height: 50%;
-    background-color: grey;
+    background-color: green;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .negii{
     width: 90%;
     height: 35%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .hoyrii{
     width: 90%;
     height: 35%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .guravii{
     width: 90%;
     height: 15%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .negt{
     width: 90%;
     height: 15%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .hoyrt{
     width: 90%;
     height: 35%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .guravt{
     width: 90%;
     height: 35%;
-    background-color: grey;
+    background-color: green;
     margin: 20px;
-    background-image: linear-gradient(to left, grey, rgb(0, 0, 0));
+    background-image: linear-gradient(to left, green, cyan);
 }
 .buurinhii{
     width: 50%;
