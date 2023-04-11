@@ -1,0 +1,32 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.a{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+.b{
+    height: 50%;
+    width: 100%;
+    background-color: cyan;
+}
+.b img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.c{
+    height: 40%;
+    width: 100%;
+    background-color: blue;
+}
+.d{
+    height: 10%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.g{
+    text-align: center;
+}
