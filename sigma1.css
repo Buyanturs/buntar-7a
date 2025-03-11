@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav article aside"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+.header, .footer {
+    background-color: pink;
+    padding: 20px;
+    grid-column: span 3;
+}
+.nav {
+    background-color: lightblue;
+    padding: 20px;
+    grid-area: nav;
+}
+.article {
+    padding: 20px;
+    grid-area: article;
+}
+.aside {
+    background-color: lightblue;
+    padding: 20px;
+    grid-area: aside;
+}
