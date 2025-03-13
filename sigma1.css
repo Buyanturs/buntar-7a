@@ -1,31 +1,48 @@
 body {
-    display: grid;
-    grid-template-areas: 
-        "header header header"
-        "nav article aside"
-        "footer footer footer";
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
-    margin: 0;
+    font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
-.header, .footer {
-    background-color: pink;
+.container {
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
     padding: 20px;
-    grid-column: span 3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.nav {
-    background-color: lightblue;
-    padding: 20px;
-    grid-area: nav;
+h1, h2 {
+    color: #333;
 }
-.article {
+.team-section {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     padding: 20px;
-    grid-area: article;
+    border-radius: 10px;
+    color: white;
 }
-.aside {
-    background-color: lightblue;
-    padding: 20px;
-    grid-area: aside;
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.member {
+    background: white;
+    color: #333;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+.robot {
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
 }
